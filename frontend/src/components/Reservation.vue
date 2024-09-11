@@ -102,7 +102,7 @@
             decode(value) {
                 return decodeURIComponent(value);
             },
-            selectFile(){
+            selectFile(){  
                 if(this.editMode == false) {
                     return false;
                 }
